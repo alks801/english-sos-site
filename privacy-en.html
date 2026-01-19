@@ -1,105 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Privacy Policy – English SOS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — English SOS</title>
+  <meta name="description" content="Privacy Policy for the English SOS application (Phrasebook)" />
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f9f9f9;
-      color: #222;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 24px;
-    }
-    h1, h2 {
-      color: #111;
-    }
-    h1 {
-      margin-bottom: 16px;
-    }
-    h2 {
-      margin-top: 32px;
-    }
-    p {
-      margin: 12px 0;
-    }
-    ul {
-      margin: 12px 0 12px 20px;
-    }
-    .footer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #666;
-    }
+    :root { --bg:#0b1220; --card:#111b33; --text:#e9eefc; --muted:#a9b4d6; --accent:#7aa2ff; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,Arial,sans-serif; background:linear-gradient(180deg,#0b1220,#0a1633); color:var(--text); }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 40px 20px 60px; }
+    .card { background: rgba(17,27,51,.86); border: 1px solid rgba(122,162,255,.18); border-radius: 16px; padding: 22px 22px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+    h1 { margin: 0 0 8px; font-size: 28px; letter-spacing: .2px; }
+    .sub { margin: 0 0 18px; color: var(--muted); font-size: 14px; }
+    h2 { margin: 22px 0 10px; font-size: 18px; }
+    p, li { line-height: 1.6; color: var(--text); }
+    ul { margin: 8px 0 0 18px; }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 14px; font-size: 13px; color: var(--muted); }
+    .pill { display:inline-block; padding: 4px 10px; border-radius: 999px; background: rgba(122,162,255,.12); border:1px solid rgba(122,162,255,.22); color: var(--text); font-size: 12px; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Privacy Policy</h1>
-
-    <p>
-      This Privacy Policy describes how the <strong>English SOS</strong> application (“the App”)
-      handles user data. We respect your privacy and are committed to protecting it.
-    </p>
-
-    <h2>1. Data Collection</h2>
-    <p>
-      The App does not collect, store, or transmit any personal data of users.
-      All information such as saved phrases, onboarding status, and app settings
-      is stored locally on your device only.
-    </p>
-
-    <h2>2. Local Storage</h2>
-    <p>The App may store the following data locally on your device:</p>
-    <ul>
-      <li>List of favorite phrases</li>
-      <li>Onboarding completion status</li>
-      <li>Pro version purchase status</li>
-    </ul>
-    <p>
-      This data never leaves your device and is not sent to any external servers.
-    </p>
-
-    <h2>3. In-App Purchases</h2>
-    <p>
-      All purchases are processed through the App Store (Apple). We do not have access
-      to your payment information. Purchase status is managed via RevenueCat only for
-      entitlement validation.
-    </p>
-
-    <h2>4. Analytics</h2>
-    <p>
-      The App does not use any third-party analytics services and does not track user behavior.
-    </p>
-
-    <h2>5. Text-to-Speech</h2>
-    <p>
-      The text-to-speech feature uses the built-in speech synthesizer of your device.
-      No text data is sent to external servers.
-    </p>
-
-    <h2>6. Permissions</h2>
-    <p>
-      The App does not request access to the camera, microphone, contacts, or location.
-    </p>
-
-    <h2>7. Changes to This Policy</h2>
-    <p>
-      We may update this Privacy Policy from time to time. The latest version will always
-      be available within the App.
-    </p>
-
-    <div class="footer">
-      <p>
-        If you have any questions about this Privacy Policy, please contact us via the support page.
+  <div class="wrap">
+    <div class="card">
+      <h1>Privacy Policy</h1>
+      <p class="sub">
+        Application: <span class="pill">English SOS / “Phrasebook”</span><br/>
+        Last updated: <strong><!-- set date -->2026-01-17</strong>
       </p>
+
+      <h2>1. Data Collection</h2>
+      <p>
+        The “Phrasebook” application does not collect, store, or transmit any personal user data.
+        All data (such as favorite phrases and settings) is stored only on your device.
+      </p>
+
+      <h2>2. Local Storage</h2>
+      <p>The application may store the following data on your device:</p>
+      <ul>
+        <li>List of favorite phrases</li>
+        <li>Onboarding completion status</li>
+        <li>Pro version purchase status</li>
+      </ul>
+      <p class="muted">
+        This data is not transmitted to any external servers and is used only within the application.
+      </p>
+
+      <h2>3. In-App Purchases</h2>
+      <p>
+        All purchases are processed through the App Store (Apple). We do not have access to your payment details.
+        To verify purchase status and restore purchases, the RevenueCat service may be used.
+        RevenueCat does not share your payment information with us and is used only to confirm your purchase status.
+      </p>
+
+      <h2>4. Analytics</h2>
+      <p>
+        The application does not use any third-party analytics services and does not track user activity.
+      </p>
+
+      <h2>5. Text-to-Speech</h2>
+      <p>
+        The text-to-speech feature uses the speech synthesizer built into your device.
+        Text is not sent to any external servers.
+      </p>
+
+      <h2>6. Permissions</h2>
+      <p>
+        The application does not require special permissions and does not request access to the camera, microphone,
+        contacts, or location.
+      </p>
+
+      <h2>7. Changes to This Policy</h2>
+      <p>
+        We may update this policy from time to time. The current version is always available at this address.
+      </p>
+
+      <div class="footer">
+        For privacy-related questions, please visit the <a href="./support.html">support page</a>.
+      </div>
     </div>
   </div>
 </body>
